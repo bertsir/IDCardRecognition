@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.arseeds.idcard.MainActivity">
+
+    <Button
+        android:id="@+id/re_net"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="联网识别"/>
+
+    <Button
+        android:id="@+id/re_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本地识别"/>
+
+
+    <Button
+        android:id="@+id/re_real"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本地实时"/>
+
+    <EditText
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/iv_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请在SD卡根目录放一张身份证照片取名idcard.jpg"
+        />
+
+</LinearLayout>
